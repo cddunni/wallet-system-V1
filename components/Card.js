@@ -36,7 +36,7 @@ const Card = () => {
         <button className="bg-blue-750 w-full mt-6 hover:bg-blue-dark text-white p-3 rounded focus:outline-none focus:shadow-outline" type="button">
         Create Account
         </button>
-        <p className='text-gray-350 mt-5'>Already have an account? <Link href='/sign-in'><a className='text-blue-750 no-underline'>Sign In</a></Link></p>
+        <p className='text-gray-350 mt-5'>Already have an account? <Link href='/sign-up'><a className='text-blue-750 no-underline'>Sign In</a></Link></p>
       </div>
     </div>
   )
