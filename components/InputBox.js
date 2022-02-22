@@ -80,7 +80,7 @@ const forms = plugin.withOptions(function (options = { strategy: 'base' }) {
 })
 const InputBox = ({label, type, placeholder}) => {
   return (
-        <div className="mt-5 max-w-md">
+        <div className="mt-5 max-w-98">
           <div className="grid grid-cols-1 gap-6">
             <label className="block">
                 <span className="text-gray-350 font-light">{label}</span>

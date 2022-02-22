@@ -4,10 +4,6 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    container: {
-      'paddingLeft': '2.5rem',
-      'paddingRight': '2.5rem',
-    },
     fontSize: {
       'xs': '.75rem',
       'sm': '.875rem',
@@ -32,7 +28,16 @@ module.exports = {
         },
         blue: {
           '750': '#1F6AEC',
-        }
+        },
+        width: {
+          '98': '33rem'
+        },
+        spacing: {
+          '65': '16.5rem',
+          '33': '8.875rem',
+        },
+        // padding: {
+        // }
       }
     },
   },

@@ -3,30 +3,26 @@ import AuthLayouts from '../components/AuthLayouts'
 import Card from '../components/Card'
 import { InputBox } from '../components/InputBox'
 
-const signIn = () => {
+const forgotPassword = () => {
   return (
     <AuthLayouts
-      title='Log In'
-      description='Great to have you back'
+      title='Forgot Password'
+      description='Kindly enter your registered email to reset your passsword'
+      descripStyle='lg:w-3/5'
     >
-     <Card
-      text='Log In'
-      question='Don’t have an account?'
-      link='Register now'
+      <Card
+      text='Recover Password'
+      link='Return to Log In'
+      textStyle='text-center'
      >
       <InputBox
         type="email"
         placeholder="johndoe@email.com"
         label="Email Address"
       />
-      <InputBox
-        type="password"
-        label="Password"
-      />
-      <p className='text-blue-750 mt-6'>Forgot Password?</p>
      </Card>
     </AuthLayouts>
   )
 }
 
-export default signIn
+export default forgotPassword

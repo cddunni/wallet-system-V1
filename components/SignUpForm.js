@@ -4,7 +4,7 @@ import Card from './Card'
 import { InputBox } from './InputBox'
 
 
-const SignInForm = () => {
+const SignUpForm = () => {
   return (
     <Card 
       text='Create Account' 
@@ -41,4 +41,4 @@ const SignInForm = () => {
   )
 }
 
-export default SignInForm
+export default SignUpForm

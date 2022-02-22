@@ -1,4 +1,4 @@
-import SignInForm from '../components/SignUpForm'
+import SignUpForm from '../components/SignUpForm'
 import AuthLayouts from '../components/AuthLayouts'
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
       title='Create Your Account'
       description='Let’s get you started'
     >
-      <SignInForm/>
+      <SignUpForm/>
     </AuthLayouts>
   )
 }
