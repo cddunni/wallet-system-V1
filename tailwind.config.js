@@ -4,6 +4,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      'paddingLeft': '2.5rem',
+      'paddingRight': '2.5rem',
+    },
     fontSize: {
       'xs': '.75rem',
       'sm': '.875rem',
