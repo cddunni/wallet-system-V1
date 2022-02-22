@@ -13,7 +13,7 @@ export default function DashboardLayout({ title, description, descripStyle, chil
         <div className='grid gap-6 md:grid-cols-2 grid-cols-1 md:pt-20'>
           <div className="">
             <p className='lg:text-5xl text-3xl font-semibold	text-gray-150 lg:mt-16 mt-12'>{title}</p>
-            <p className={`xl:text-2xl lg:text-xl text-lg text-gray-200 mt-1 ${descripStyle}`}>{description}</p>
+            <p className={`lg:text-2xl text-lg text-gray-200 mt-1 ${descripStyle}`}>{description}</p>
           </div>
           <div>
             <main>{children}</main>
