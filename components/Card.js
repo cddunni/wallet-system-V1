@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
 
-const Card = ({children, text, question, link, textStyle, btnDisplay }) => {
+const Card = ({children, text, question, link, textStyle, btnDisplay, cardStyle }) => {
   return (
-    <div className='bg-white rounded-lg border border-gray-250 px-8 pt-5 pb-10 max-w-33'>
+    <div className={`bg-white rounded-lg border border-gray-250 px-8 pt-5 pb-10 max-w-33 ${cardStyle}`}>
       <>
         {children}
       </>

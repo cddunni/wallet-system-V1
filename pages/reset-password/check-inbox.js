@@ -10,7 +10,7 @@ const checkInbox = () => {
       description='we have sent a reset link to your registered email address.'
       descripStyle='lg:w-8/12'
     >
-      <div className={`bg-white rounded-lg border border-gray-250 px-7 py-10 max-w-md text-center`}>
+      <div className='bg-white rounded-lg border border-gray-250 px-7 py-10 max-w-md text-center'>
         <Image
           src={inbox}
           alt='check Inbox'

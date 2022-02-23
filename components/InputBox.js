@@ -1,9 +1,9 @@
-const svgToDataUri = require('mini-svg-data-uri')
+// const svgToDataUri = require('mini-svg-data-uri')
 const plugin = require('tailwindcss/plugin')
-const defaultTheme = require('tailwindcss/defaultTheme')
-const colors = require('tailwindcss/colors')
-const [baseFontSize, { lineHeight: baseLineHeight }] = defaultTheme.fontSize.base
-const { spacing, borderWidth, borderRadius } = defaultTheme
+// const defaultTheme = require('tailwindcss/defaultTheme')
+// const colors = require('tailwindcss/colors')
+// const [baseFontSize, { lineHeight: baseLineHeight }] = defaultTheme.fontSize.base
+// const { spacing, borderWidth, borderRadius } = defaultTheme
 
 const forms = plugin.withOptions(function (options = { strategy: 'base' }) {
   return function ({ addBase, theme }) {

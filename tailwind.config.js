@@ -30,23 +30,16 @@ module.exports = {
         blue: {
           '750': '#1F6AEC',
         },
-        width: {
-          '98': '33rem'
-        },
-        spacing: {
-          '15': '3.813rem',
-          '65': '16.5rem',
-          '33': '8.875rem',
-          margin: {
-            '15': '3.813rem',
-          }
-        },
-        margin: {
-          '15': '3.813rem',
-        }
-        // padding: {
-        // }
-      }
+      },
+      width: {
+        '98': '33rem'
+      },
+      spacing: {
+        '15': '3.813rem',
+        '65': '16.5rem',
+        '33': '8.875rem',
+        '13': '3.25rem'
+      },
     },
   },
   plugins: [

@@ -29,7 +29,7 @@ const SignUpForm = () => {
         label="Email Address"
       />
       <InputBox
-        type="email"
+        type="text"
         placeholder="080 1234 5678"
         label="Phone Number"
       />
