@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import AuthLayouts from '../components/AuthLayouts'
-import Card from '../components/Card'
-import inbox from '../public/inbox.png'
+import AuthLayouts from './../../components/AuthLayouts'
+import inbox from '../../public/inbox.png'
 
 const checkInbox = () => {
   return (
