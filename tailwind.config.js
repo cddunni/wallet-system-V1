@@ -10,7 +10,7 @@ module.exports = {
       'base': '1rem',
       'lg': '1.125rem',
       'xl': '1.25rem',
-      '2xl': '1.7rem',
+      '2xl': '1.6rem',
       '3xl': '1.75rem',
       '4xl': '2.25rem',
       '5xl': '2.5rem',
@@ -25,6 +25,7 @@ module.exports = {
           '250': '#DEE3EB',
           '300': '#F4F7FC',
           '350': '#6D7A98',
+          '400': '#6D7A98'
         },
         blue: {
           '750': '#1F6AEC',
@@ -33,9 +34,16 @@ module.exports = {
           '98': '33rem'
         },
         spacing: {
+          '15': '3.813rem',
           '65': '16.5rem',
           '33': '8.875rem',
+          margin: {
+            '15': '3.813rem',
+          }
         },
+        margin: {
+          '15': '3.813rem',
+        }
         // padding: {
         // }
       }

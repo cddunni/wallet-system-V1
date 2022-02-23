@@ -1,5 +1,5 @@
 import React from 'react'
-import WalletLogo from '../public/WalletLogo.png'
+import walletLogo from '../public/walletLogo.png'
 import Image from 'next/image'
 
 export default function DashboardLayout({ title, description, descripStyle, children }) {
@@ -7,7 +7,7 @@ export default function DashboardLayout({ title, description, descripStyle, chil
     <div className='bg-gray-300 min-h-screen'>
       <div className='px-5 md:px-10 xl:px-32 lg:pt-20 pt-8'>
         <Image
-          src={WalletLogo}
+          src={walletLogo}
           alt='wallet logo'
         />  
         <div className='grid gap-6 md:grid-cols-2 grid-cols-1 md:pt-20'>

@@ -11,16 +11,16 @@ const forgotPassword = () => {
       descripStyle='lg:w-3/5'
     >
       <Card
-      text='Recover Password'
-      link='Return to Log In'
-      textStyle='text-center'
-     >
-      <InputBox
-        type="email"
-        placeholder="johndoe@email.com"
-        label="Email Address"
-      />
-     </Card>
+        text='Recover Password'
+        link='Return to Log In'
+        textStyle='text-center'
+      >
+        <InputBox
+          type="email"
+          placeholder="johndoe@email.com"
+          label="Email Address"
+        />
+      </Card>
     </AuthLayouts>
   )
 }
