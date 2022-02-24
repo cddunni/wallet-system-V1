@@ -8,7 +8,7 @@ import profileIcon from '../public/profileIcon.png'
 
 const sidebar = () => {
   return (
-    <div className='bg-blue-800 px-9 py-6 text-white'>
+    <div className='bg-blue-800 px-9 py-6 text-white h-screen w-62'>
       <div className='text-xl flex ml-0.5'>
         <div className='mt-0.5'>
           <Image
@@ -20,15 +20,15 @@ const sidebar = () => {
             Wallet
           </p>
       </div>
-      <Link href='/dashboard'>
-        <a>
-          <div className='flex mt-10'>
+      <Link href='/dashboard' >
+        <a className=''>
+          <div className='flex mt-10 hover:ring-sky-500'>
             <div className='mr-3.5'>
               <Image
                 src={homeIcon}
               />
             </div>
-            <p className='text-gray-200 font-light text-sm'>
+            <p className='text-gray-200 font-light text-base'>
               Home
             </p>
           </div>
@@ -42,7 +42,7 @@ const sidebar = () => {
                 src={transactionIcon}
               />
             </div>
-            <p className='text-gray-200 font-light text-sm'>
+            <p className='text-gray-200 font-light text-base'>
               Transactions
             </p>
           </div>
@@ -56,7 +56,7 @@ const sidebar = () => {
                 src={profileIcon}
               />
             </div>
-            <p className='text-gray-200 font-light text-sm'>
+            <p className='text-gray-200 font-light text-base'>
               Profile
             </p>
           </div>
