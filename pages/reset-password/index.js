@@ -1,7 +1,7 @@
 import React from 'react'
-import AuthLayouts from '../components/AuthLayouts'
-import Card from '../components/Card'
-import { InputBox } from '../components/InputBox'
+import AuthLayouts from '../../components/AuthLayouts'
+import Card from '../../components/Card'
+import { InputBox } from '../../components/InputBox'
 
 const resetPassword = () => {
   return (

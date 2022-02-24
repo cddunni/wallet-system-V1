@@ -4,6 +4,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'inter': 'Inter, sans-serif',
+      'marker': ['Permanent Marker' , 'cursive'],
+    },
     fontSize: {
       'xs': '.75rem',
       'sm': '.875rem',
@@ -29,12 +33,15 @@ module.exports = {
         },
         blue: {
           '750': '#1F6AEC',
+          '800': '#0B2253',
         },
       },
       width: {
         '98': '33rem'
       },
       spacing: {
+        '1.7': '0.4rem',
+        '9': '2.125rem',
         '15': '3.813rem',
         '65': '16.5rem',
         '33': '8.875rem',
