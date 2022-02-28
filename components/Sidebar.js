@@ -8,8 +8,8 @@ import profileIcon from '../public/profileIcon.png'
 
 const sidebar = () => {
   return (
-    <div className='bg-blue-800 px-9 py-6 text-white h-screen w-62'>
-      <div className='text-xl flex ml-0.5'>
+    <div className='bg-blue-800 px-4 py-6 text-white h-screen w-62'>
+      <div className='text-xl flex ml-21'>
         <div className='mt-0.5'>
           <Image
             src={walletLogoWhite}
@@ -22,41 +22,47 @@ const sidebar = () => {
       </div>
       <Link href='/dashboard' >
         <a className=''>
-          <div className='flex mt-10 hover:ring-sky-500'>
-            <div className='mr-3.5'>
+          <div className='flex items-center mt-10 text-gray-200 active:text-white active:bg-gray-500 rounded px-3 py-2'>
+            <div className='mr-3.5 ml-1.5 mt-1'>
               <Image
                 src={homeIcon}
+                width={15}
+                height={15}
               />
             </div>
-            <p className='text-gray-200 font-light text-base'>
+            <p className='font-light text-base'>
               Home
             </p>
           </div>
         </a>
       </Link>
-      <Link href='/dashboard/transactions'>
+      <Link href='/dashboard'>
         <a>
-          <div className='flex mt-5'>
-            <div className='mr-3.5'>
+          <div className='flex mt-5 text-gray-200 active:text-white active:bg-gray-500 rounded px-3 py-2'>
+            <div className='mr-3.5 ml-1.5 mt-0.5'>
               <Image
                 src={transactionIcon}
+                width={15}
+                height={15}
               />
             </div>
-            <p className='text-gray-200 font-light text-base'>
+            <p className='font-light text-base'>
               Transactions
             </p>
           </div>
         </a>
       </Link>
-      <Link href='/dashboard/profile'>
+      <Link href='/dashboard'>
         <a>
-          <div className='flex mt-5'>
-            <div className='mr-3.5'>
+          <div className='flex mt-5 text-gray-200 active:text-white active:bg-gray-500 rounded px-3 py-2'>
+            <div className='mr-3.5 ml-1.5'>
               <Image
                 src={profileIcon}
+                width={15}
+                height={15}
               />
             </div>
-            <p className='text-gray-200 font-light text-base'>
+            <p className='font-light text-base'>
               Profile
             </p>
           </div>
