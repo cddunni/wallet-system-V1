@@ -2,7 +2,7 @@ import React from 'react'
 import walletLogo from '../public/walletLogo.png'
 import Image from 'next/image'
 
-export default function DashboardLayout({ title, description, descripStyle, children }) {
+export default function AuthLayout({ title, description, descripStyle, children }) {
   return (
     <div className='bg-gray-300 min-h-screen'>
       <div className='px-5 md:px-10 xl:px-32 lg:pt-20 pt-8'>

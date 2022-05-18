@@ -6,9 +6,9 @@ import homeIcon from '../public/homeIcon.png'
 import transactionIcon from '../public/transactionIcon.png'
 import profileIcon from '../public/profileIcon.png'
 
-const sidebar = () => {
+const Sidebar = () => {
   return (
-    <div className='bg-blue-800 px-4 py-6 text-white h-screen w-62'>
+    <div className='bg-blue-800 px-4 py-6 text-white h-screen w-1/6'>
       <div className='text-xl flex ml-21'>
         <div className='mt-0.5'>
           <Image
@@ -36,7 +36,7 @@ const sidebar = () => {
           </div>
         </a>
       </Link>
-      <Link href='/dashboard'>
+      <Link href='/dashboard/transactions'>
         <a>
           <div className='flex mt-5 text-gray-200 active:text-white active:bg-gray-500 rounded px-3 py-2'>
             <div className='mr-3.5 ml-1.5 mt-0.5'>
@@ -52,7 +52,7 @@ const sidebar = () => {
           </div>
         </a>
       </Link>
-      <Link href='/dashboard'>
+      <Link href='/dashboard/profile'>
         <a>
           <div className='flex mt-5 text-gray-200 active:text-white active:bg-gray-500 rounded px-3 py-2'>
             <div className='mr-3.5 ml-1.5'>
@@ -72,4 +72,4 @@ const sidebar = () => {
   )
 }
 
-export default sidebar
+export default Sidebar

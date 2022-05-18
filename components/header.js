@@ -3,7 +3,7 @@ import Image from 'next/image'
 import {RiNotificationLine} from 'react-icons/ri'
 const Header = () => {
   return (
-      <div className='flex items-center justify-end'>
+      <div className='flex items-center justify-end h-16'>
         <RiNotificationLine
           className='text-xl'
         />
