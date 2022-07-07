@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import AuthLayouts from '../components/AuthLayouts'
 import Card from '../components/Card'
@@ -13,6 +14,7 @@ const signIn = () => {
       text='Log In'
       question='Don’t have an account?'
       link='Register now'
+      pageRoute='/'
      >
       <InputBox
         type="email"
@@ -23,7 +25,9 @@ const signIn = () => {
         type="password"
         label="Password"
       />
-      <p className='text-blue-750 mt-6'>Forgot Password?</p>
+      <p className='mt-6'>
+        <Link href="/forgot-password"><a className='text-blue-750'>Forgot Password?</a></Link>
+      </p>
      </Card>
     </AuthLayouts>
   )

@@ -14,6 +14,8 @@ const forgotPassword = () => {
         text='Recover Password'
         link='Return to Log In'
         textStyle='text-center'
+        pageRoute='/sign-in'
+
       >
         <InputBox
           type="email"

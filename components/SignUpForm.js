@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import React from 'react'
 import Card from './Card'
 import { InputBox } from './InputBox'
@@ -10,6 +9,7 @@ const SignUpForm = () => {
       text='Create Account' 
       question='Already have an account?' 
       link='Sign In'
+      pageRoute='/sign-in'
     >
       <div className='grid gap-4 grid-cols-2'>
         <InputBox
